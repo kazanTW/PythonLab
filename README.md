@@ -1,7 +1,10 @@
 # PythonLab
 CompArch Final Lab Project @ FCU IECS 1A
+
 Teacher: Ting-Hui Chiang
+
 Coder/Student: Joshua Su a.k.a. **Kazan** (D1090481)
+
 
 ## Logs of lessons and labs
 
