@@ -17,3 +17,9 @@ Coder/Student: Joshua Su a.k.a. **Kazan** (D1090481)
     + Conditional judgement: `if-else` and `if-elif-else`
     + Loop: `for` and `while`
 + Lab: A program to find all prime numbers between 1 and the certain number `n`(include `n`).
+
+### Week 3 (12/09)
++ Lesson: 
+    + Data structure: **List**
+    + Functions
++ Lab: Use self-defining subfuntions to present a rock-paper-scissors game.
