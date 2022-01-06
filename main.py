@@ -15,7 +15,13 @@ if __name__ == '__main__':
         model = result[index].getText()
         if model != '':
             price = web.select('.prdPrice')[index].getText()
-            product[index] = {'model': model, 'price': price}
+            price = price.removeprefix('$')
+            price = price.replace(',', '')
+            try:
+                price_num = int(price)
+            except:
+                price_num = 0
+            product[index] = {'model': model, 'price': price_num}
         
     product_df = pd.DataFrame(product).T
     product_df.to_excel(f"mouse-and-kb.xlsx")
